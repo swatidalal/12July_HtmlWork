@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="Email">Email Address</label>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password"><br>
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" name="mname"><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"><br>
+        <input type="checkbox" name="male" id="male">Male<br>
+        <input type="checkbox" name="female" id="female">Female<br>
+        <input type="checkbox" name="Others" id="Others">Others<br>
+
+    </form>
+    <br>
+    <center>    
+        <h2>Welcome</h2>
+      <form action="action.php">
+        <fieldset>
+            <legend>Name</legend>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <label for="mname">Middle Name</label>
+            <input type="text" id="mname" name="mname">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Gender">Gender <br>
+                <input type="radio" name="Gender" id="male">Male
+                <input type="radio" name="Gender" id="female">Female
+                <input type="radio" name="Gender" id="Others">Others
+            </label>
+        </fieldset>
+      </form>
+      <form>
+        <fieldset>
+            <legend>Email</legend>
+        <label for="Email">Email Address</label>
+        <input type="text" id="Email" name="Email">
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password">
+        <input type="button" value="Submit">
+    </fieldset>
+    </form>
+    <br>
+    <br>
+    <label for="city">City:</label>
+    <select name="city" id="city">
+        <option value="delhi">delhi</option>
+        <option value="noida">noida</option>
+        <option value="jaipur">jaipur</option>
+    </select>
+    <br>
+    <br>
+    <label for="file-select">Upload:</label>
+    <input type="file" name="upload" id="file-select">
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <textarea rows="3" cols="30" name="address" id="address"></textarea>
+
+
+
+    </center>
+</body>
